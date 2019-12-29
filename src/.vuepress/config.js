@@ -4,7 +4,7 @@ const path = require("path");
 const BATH_PATH = "/blog/";
 
 module.exports = {
-  title: "David-Blog",
+  title: "pineHe-Blog",
 
   description: "a user blog",
 
@@ -57,18 +57,18 @@ module.exports = {
 
     /**[个人信息] */
     personalInfo: {
-      nickname: "David",
+      nickname: "pineHe",
       description: "Happy Coding<br/>Happy Life",
-      email: "david_weiwenwen@163.com",
+      email: "jsonHe557@163.com",
       location: "Shen'zhen City, China",
       organization: "Shen'zhen Private Enterprise",
 
-      avatar: BATH_PATH + "assets/img/David.jpg",
+      avatar: BATH_PATH + "assets/img/pine.jpg",
 
       sns: {
         github: {
-          account: "wenwenwei",
-          link: "https://github.com/wenwenwei/blog"
+          account: "superuserhe",
+          link: "https://github.com/superuserhe/blog"
         }
       }
     },
@@ -93,12 +93,12 @@ module.exports = {
       { text: "Custom Pages", link: "/custom-pages/", exact: false },
       {
         text: "Github",
-        link: "https://github.com/wenwenwei/blog"
+        link: "https://github.com/superuserhe/blog"
       }
     ],
 
     comments: {
-      owner: "David",
+      owner: "pineHe",
       repo: "vuepress-blog",
       clientId: "cbda894952ba70c00666",
       clientSecret: "1ade785ca693bf3092be5e5338720d5ee43672b7",
